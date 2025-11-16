@@ -228,7 +228,7 @@ with col1:
         st.info("No recommendations yet — try Search, pick a Mood, or press Surprise Me!")
 
 with col2:
-    st.markdown("## 🎯 Quick Picks")
+    st.markdown("##  Quick Picks")
     if st.session_state.get('last_mode') == 'surprise':
         st.markdown("**Surprise picks for you**")
 
