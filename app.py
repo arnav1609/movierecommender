@@ -241,7 +241,8 @@ with col2:
             st.markdown(f"**{item.get('title')}** ({item.get('year')})")
         if st.button("Clear Watchlist"):
             recommender.save_watchlist([])
-            st.experimental_rerun()
+            st.rerun()
+
     else:
         st.write("Watchlist is empty — add movies you like!")
 
